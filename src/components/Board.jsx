@@ -63,7 +63,7 @@ const BoardView = () => {
         {tiles}
         <GameOverlay onRestart={resetGame} board={board} />
       </div>
-      <p>специально, для злой собаки от Айгулечки</p>
+{/*       <p>специально, для злой собаки от Айгулечки</p> */}
     </div>
   );
 };
